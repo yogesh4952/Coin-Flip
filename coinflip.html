@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="
+        
+        let Number=Math.random();
+        let Computermove='';
+        if(Number<0.5){
+            Computermove='Heads';
+        }
+        else{
+            Computermove='Tails'
+        }
+
+        let result='';
+        if(Computermove==='Heads'){
+            result='You win'
+
+        }
+     else{
+            result='You lose'
+        }
+        alert(`${result}`);  ">
+        Heads
+    </button>
+    <button onclick="
+        
+    let Number=Math.random();
+    let Computermove='';
+    if(Number<0.5){
+        Computermove='Heads';
+    }
+    
+    else{
+        Computermove='Tails'
+    }
+
+    let result='';
+    if(Computermove=== 'Tails'){
+        result='You wins.'
+        
+    }
+    else{
+        result='You Lose.'
+
+    }
+    
+    alert(`${result}`);">
+        Tails
+    </button>
+</body>
+
+</html>
